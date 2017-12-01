@@ -17,7 +17,8 @@ int main(int argc, char** argv) {
 	float sigma = atof(argv[2]);
 
 	Image output = gaussianBlur_separable(mask, sigma);
-	string outfilepath = "./../images/mask-images/";
+	string outfilepath = "./images/mask-images/";
 	outfilepath.append(argv[3]);
+	cout << "Saving blurred mask to: " << outfilepath << endl;
 	output.write(outfilepath);
 }
