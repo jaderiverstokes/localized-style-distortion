@@ -1,0 +1,6 @@
+[submodule "fast-neural-style"]
+	path = fast-neural-style
+	url = https://github.com/abhiskk/fast-neural-style
+[submodule "tensorflow-deeplab-resnet"]
+	path = tensorflow-deeplab-resnet
+	url = https://github.com/DrSleep/tensorflow-deeplab-resnet
