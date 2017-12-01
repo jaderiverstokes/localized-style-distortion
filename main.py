@@ -11,7 +11,7 @@ input_name = 'logan'
 
 # Run image segmentation and stylization
 command ='source mask.sh '+input_name+' && source style.sh '+input_name + ' ' + style
-#os.system(command)
+os.system(command)
 
 
 # filenames
