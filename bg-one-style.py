@@ -15,6 +15,15 @@ styles = [
 	'starry-night', 
 	'udnie'	]
 
+objects = {
+	"motorcycle":[128,128,64],
+	"people":[128,128,192]	}
+
+selection = objects["people"]
+
+if(len(sys.argv)>=3):
+	selection = objects[sys.argv[2]]
+
 out_dir = "images/output-images/" + input_name
 command = "mkdir -p " + out_dir
 os.system(command)
@@ -36,7 +45,7 @@ mask = cv2.imread(mask_file)
 h,w = mask.shape[:2]
 size = (h,w,1)
 bin_mask = np.zeros(size, dtype=np.uint8)
-bin_mask[np.where((mask == [128,128,192]).all(axis = 2))] = 255
+bin_mask[np.where((mask == selection).all(axis = 2))] = 255
 cv2.imwrite(bin_mask_file, bin_mask)
 blur_mask = cv2.GaussianBlur(bin_mask, (blur_size, 	blur_size), blur_sigma)
 cv2.imwrite(blur_mask_file, blur_mask)
