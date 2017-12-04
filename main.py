@@ -43,7 +43,7 @@ blurSigma = 30
 #m = cv2.imread(blurMaskFP).astype(float)/255.0
 m = cv2.imread(bin_mask_str).astype(float)/255.0
 m = cv2.GaussianBlur(m, (2*blurSigma+1, 2*blurSigma+1), blurSigma)
-#cv2.imwrite(blurMaskFP, m)
+cv2.imwrite(blurMaskFP, m)
 
 # apply alpha blending
 style_layer = cv2.multiply(m, styled)
