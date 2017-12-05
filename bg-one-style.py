@@ -3,21 +3,26 @@
 import cv2
 import numpy as np
 import sys, os
+from config import *
 
 if(len(sys.argv)<2):
 	print("Error: Please specify an input image")
 
 input_name = sys.argv[1]
 
-styles = [ 
-	'candy', 
-	'mosaic', 
-	'starry-night', 
-	'udnie'	]
+# styles = [ 
+# 	'candy', 
+# 	'mosaic', 
+# 	'starry-night', 
+# 	'udnie',
+# 	'picasso1',
+# 	'embers'	]
 
-objects = {
-	"motorcycle":[128,128,64],
-	"people":[128,128,192]	}
+
+
+# objects = {
+# 	"motorcycle":[128,128,64],
+# 	"people":[128,128,192]	}
 
 selection = objects["people"]
 
