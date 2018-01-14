@@ -1,0 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
+data = [2070265.222266, 1345254.037586, 1076343.867339, 931903.176754, 839174.796306, 773002.529641, 722689.468781, 684934.055752, 653987.227151, 627653.395970, 605472.766054, 586439.770035, 569607.672571, 554974.643420, 541973.233457, 530361.462729, 520004.724333, 510564.254579, 501945.617789, 494119.853052, 486846.196295, 480142.968653]
+
+iter = np.linspace(2000,2000*(len(data)),len(data))
+
+plt.plot(iter,data)
+plt.xlabel('iteration')
+plt.ylabel('MSE')
+plt.title('Mean Square Error for Neural Style Training')
+plt.show()
