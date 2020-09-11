@@ -1,0 +1,1015 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AverageMeter	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, setup_logger$/;"	i
+AverageMeter	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, parse_devices, setup_logger$/;"	i
+AverageMeter	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^class AverageMeter(object):$/;"	c
+AverageMeter	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.utils import AverageMeter, parse_devices, setup_logger$/;"	i
+BN_MOMENTUM	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^BN_MOMENTUM = 0.1$/;"	v
+BaseDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^class BaseDataset(torch.utils.data.Dataset):$/;"	c
+BasicBlock	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^class BasicBlock(nn.Module):$/;"	c
+BasicBlock	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^class BasicBlock(nn.Module):$/;"	c
+BatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^BatchNorm2d = SynchronizedBatchNorm2d$/;"	v
+BatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^BatchNorm2d = SynchronizedBatchNorm2d$/;"	v
+BatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^BatchNorm2d = SynchronizedBatchNorm2d$/;"	v
+BatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^BatchNorm2d = SynchronizedBatchNorm2d$/;"	v
+BatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^BatchNorm2d = SynchronizedBatchNorm2d$/;"	v
+BatchSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^from .sampler import SequentialSampler, RandomSampler, BatchSampler$/;"	i
+BatchSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^class BatchSampler(object):$/;"	c
+Bottleneck	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^class Bottleneck(nn.Module):$/;"	c
+Bottleneck	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^class Bottleneck(nn.Module):$/;"	c
+Broadcast	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^from torch.nn.parallel._functions import ReduceAddCoalesced, Broadcast$/;"	i
+C1	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class C1(nn.Module):$/;"	c
+C1DeepSup	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class C1DeepSup(nn.Module):$/;"	c
+CN	C:/Users/Cooper/localized-style-distortion\mit_semseg\config\defaults.py	/^from yacs.config import CfgNode as CN$/;"	i
+CallbackContext	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^class CallbackContext(object):$/;"	c
+ConcatDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\__init__.py	/^from .dataset import Dataset, TensorDataset, ConcatDataset$/;"	i
+ConcatDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^class ConcatDataset(Dataset):$/;"	c
+ConvLayer	C:/Users/Cooper/localized-style-distortion\model.py	/^class ConvLayer(nn.Module):$/;"	c
+ConvNormLayer	C:/Users/Cooper/localized-style-distortion\model.py	/^class ConvNormLayer(nn.Module):$/;"	c
+ConvTanhLayer	C:/Users/Cooper/localized-style-distortion\model.py	/^class ConvTanhLayer(nn.Module):$/;"	c
+DATA_DIR	C:/Users/Cooper/localized-style-distortion\style_video.py	/^DATA_DIR  =jp(ROOT_DIR, 'data')$/;"	v
+DEFAULT_MODEL	C:/Users/Cooper/localized-style-distortion\style_video.py	/^DEFAULT_MODEL = ".\/model_mosaic_2.pth"$/;"	v
+DEVNULL	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+DEVNULL	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+DataLoader	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\__init__.py	/^from .dataloader import DataLoader$/;"	i
+DataLoader	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^class DataLoader(object):$/;"	c
+DataLoaderIter	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^class DataLoaderIter(object):$/;"	c
+DataParallel	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^from torch.nn.parallel.data_parallel import DataParallel$/;"	i
+DataParallelWithCallback	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\__init__.py	/^from .replicate import DataParallelWithCallback, patch_replication_callback$/;"	i
+DataParallelWithCallback	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^class DataParallelWithCallback(DataParallel):$/;"	c
+DataParallelWithCallback	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^from sync_batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, DataParallelWithCallback$/;"	i
+Dataset	C:/Users/Cooper/localized-style-distortion\dataset.py	/^from torch.utils.data import Dataset$/;"	i
+Dataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\__init__.py	/^from .dataset import Dataset, TensorDataset, ConcatDataset$/;"	i
+Dataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^class Dataset(object):$/;"	c
+Decoder	C:/Users/Cooper/localized-style-distortion\model.py	/^class Decoder(nn.Module):$/;"	c
+DictGatherDataParallel	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^class DictGatherDataParallel(nn.DataParallel):$/;"	c
+DistributedSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^class DistributedSampler(Sampler):$/;"	c
+Dummy	C:/Users/Cooper/localized-style-distortion\lib.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+Dummy	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+Dummy	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+Dummy	C:/Users/Cooper/localized-style-distortion\utils.py	/^class Dummy:$/;"	c
+Encoder	C:/Users/Cooper/localized-style-distortion\model.py	/^class Encoder(nn.Module):$/;"	c
+ExceptionWrapper	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^class ExceptionWrapper(object):$/;"	c
+F	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^import torch.nn.functional as F$/;"	i
+F	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^import torch.nn.functional as F$/;"	i
+FRN	C:/Users/Cooper/localized-style-distortion\frn.py	/^class FRN(nn.Module):$/;"	c
+FRN	C:/Users/Cooper/localized-style-distortion\model.py	/^from frn import FRN, TLU$/;"	i
+FlyingThings3DDataset	C:/Users/Cooper/localized-style-distortion\dataset.py	/^class FlyingThings3DDataset(SceneFlowDataset):$/;"	c
+FlyingThings3DDataset	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from dataset import MonkaaDataset, FlyingThings3DDataset$/;"	i
+FutureResult	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^class FutureResult(object):$/;"	c
+Gather	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^from torch.nn.parallel._functions import Gather$/;"	i
+GroupBottleneck	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^class GroupBottleneck(nn.Module):$/;"	c
+HRNetV2	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^class HRNetV2(nn.Module):$/;"	c
+HighResolutionModule	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^class HighResolutionModule(nn.Module):$/;"	c
+Image	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^from PIL import Image$/;"	i
+Image	C:/Users/Cooper/localized-style-distortion\dataset.py	/^from PIL import Image$/;"	i
+Image	C:/Users/Cooper/localized-style-distortion\eval.py	/^from PIL import Image$/;"	i
+Image	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from PIL import Image$/;"	i
+Image	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^from PIL import Image$/;"	i
+Image	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from PIL import Image$/;"	i
+Image	C:/Users/Cooper/localized-style-distortion\test.py	/^from PIL import Image$/;"	i
+InvertedResidual	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^class InvertedResidual(nn.Module):$/;"	c
+LooseVersion	C:/Users/Cooper/localized-style-distortion\eval.py	/^from distutils.version import LooseVersion$/;"	i
+LooseVersion	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from distutils.version import LooseVersion$/;"	i
+LooseVersion	C:/Users/Cooper/localized-style-distortion\test.py	/^from distutils.version import LooseVersion$/;"	i
+LooseVersion	C:/Users/Cooper/localized-style-distortion\train.py	/^from distutils.version import LooseVersion$/;"	i
+MobileNetV2	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^class MobileNetV2(nn.Module):$/;"	c
+MobileNetV2Dilated	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class MobileNetV2Dilated(nn.Module):$/;"	c
+ModelBuilder	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+ModelBuilder	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+ModelBuilder	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\__init__.py	/^from .models import ModelBuilder, SegmentationModule, SegmentationModel$/;"	i
+ModelBuilder	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class ModelBuilder:$/;"	c
+ModelBuilder	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+ModelBuilder	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+MonkaaDataset	C:/Users/Cooper/localized-style-distortion\dataset.py	/^class MonkaaDataset(SceneFlowDataset):$/;"	c
+MonkaaDataset	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from dataset import MonkaaDataset, FlyingThings3DDataset$/;"	i
+NotSupportedCliException	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^class NotSupportedCliException(Exception):$/;"	c
+NumericTestCase	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^class NumericTestCase(TorchTestCase):$/;"	c
+PIPE	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+PIPE	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+PPM	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class PPM(nn.Module):$/;"	c
+PPMDeepsup	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class PPMDeepsup(nn.Module):$/;"	c
+Popen	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+Popen	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+Process	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from multiprocessing import Queue, Process$/;"	i
+Queue	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from multiprocessing import Queue, Process$/;"	i
+REGEX	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^REGEX = [$/;"	v
+ROOT_DIR	C:/Users/Cooper/localized-style-distortion\style_video.py	/^ROOT_DIR = os.path.abspath(os.path.expanduser('~\/localized-style-distortion'))$/;"	v
+RandomHorizontalFlip	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^class RandomHorizontalFlip:$/;"	c
+RandomSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^from .sampler import SequentialSampler, RandomSampler, BatchSampler$/;"	i
+RandomSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^class RandomSampler(Sampler):$/;"	c
+ReCoNet	C:/Users/Cooper/localized-style-distortion\lib.py	/^from model import ReCoNet$/;"	i
+ReCoNet	C:/Users/Cooper/localized-style-distortion\model.py	/^class ReCoNet(nn.Module):$/;"	c
+ReCoNet	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from model import ReCoNet$/;"	i
+ReCoNetModel	C:/Users/Cooper/localized-style-distortion\lib.py	/^class ReCoNetModel:$/;"	c
+ReduceAddCoalesced	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^from torch.nn.parallel._functions import ReduceAddCoalesced, Broadcast$/;"	i
+ResLayer	C:/Users/Cooper/localized-style-distortion\model.py	/^class ResLayer(nn.Module):$/;"	c
+ResNeXt	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^class ResNeXt(nn.Module):$/;"	c
+ResNet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^class ResNet(nn.Module):$/;"	c
+Resize	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^class Resize:$/;"	c
+Resnet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^            net_encoder = Resnet(orig_resnext) # we can still use class Resnet$/;"	c	function:ModelBuilder.build_encoder
+Resnet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class Resnet(nn.Module):$/;"	c
+ResnetDilated	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class ResnetDilated(nn.Module):$/;"	c
+RunningLossesContainer	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+RunningLossesContainer	C:/Users/Cooper/localized-style-distortion\utils.py	/^class RunningLossesContainer:$/;"	c
+Sampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^from .sampler import Sampler$/;"	i
+Sampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^class Sampler(object):$/;"	c
+SceneFlowDataset	C:/Users/Cooper/localized-style-distortion\dataset.py	/^class SceneFlowDataset(Dataset):$/;"	c
+SceneFlowEntry	C:/Users/Cooper/localized-style-distortion\dataset.py	/^SceneFlowEntry = namedtuple("SceneFlowEntry",$/;"	v
+SegmentationModel	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\__init__.py	/^from .models import ModelBuilder, SegmentationModule, SegmentationModel$/;"	i
+SegmentationModel	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class SegmentationModel:$/;"	c
+SegmentationModel	C:/Users/Cooper/localized-style-distortion\style_video.py	/^from mit_semseg.models import SegmentationModel$/;"	i
+SegmentationModule	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+SegmentationModule	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+SegmentationModule	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\__init__.py	/^from .models import ModelBuilder, SegmentationModule, SegmentationModel$/;"	i
+SegmentationModule	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class SegmentationModule(SegmentationModuleBase):$/;"	c
+SegmentationModule	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+SegmentationModule	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.models import ModelBuilder, SegmentationModule$/;"	i
+SegmentationModuleBase	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class SegmentationModuleBase(nn.Module):$/;"	c
+SequentialSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^from .sampler import SequentialSampler, RandomSampler, BatchSampler$/;"	i
+SequentialSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^class SequentialSampler(Sampler):$/;"	c
+SlavePipe	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^class SlavePipe(_SlavePipeBase):$/;"	c
+StyleModel	C:/Users/Cooper/localized-style-distortion\style_video.py	/^from lib import ReCoNetModel as StyleModel$/;"	i
+Subset	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^class Subset(Dataset):$/;"	c
+SubsetRandomSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^class SubsetRandomSampler(Sampler):$/;"	c
+SummaryWriter	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from torch.utils.tensorboard import SummaryWriter$/;"	i
+SyncMaster	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^from .comm import SyncMaster$/;"	i
+SyncMaster	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^class SyncMaster(object):$/;"	c
+SyncTestCase	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^class SyncTestCase(TorchTestCase):$/;"	c
+SynchronizedBatchNorm1d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\__init__.py	/^from .batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, SynchronizedBatchNorm3d$/;"	i
+SynchronizedBatchNorm1d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^class SynchronizedBatchNorm1d(_SynchronizedBatchNorm):$/;"	c
+SynchronizedBatchNorm1d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^from sync_batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, DataParallelWithCallback$/;"	i
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\__init__.py	/^from .batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, SynchronizedBatchNorm3d$/;"	i
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^class SynchronizedBatchNorm2d(_SynchronizedBatchNorm):$/;"	c
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^from sync_batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, DataParallelWithCallback$/;"	i
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^from mit_semseg.lib.nn import SynchronizedBatchNorm2d$/;"	i
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^from mit_semseg.lib.nn import SynchronizedBatchNorm2d$/;"	i
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from mit_semseg.lib.nn import SynchronizedBatchNorm2d$/;"	i
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^from mit_semseg.lib.nn import SynchronizedBatchNorm2d$/;"	i
+SynchronizedBatchNorm2d	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^from mit_semseg.lib.nn import SynchronizedBatchNorm2d$/;"	i
+SynchronizedBatchNorm3d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\__init__.py	/^from .batchnorm import SynchronizedBatchNorm1d, SynchronizedBatchNorm2d, SynchronizedBatchNorm3d$/;"	i
+SynchronizedBatchNorm3d	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^class SynchronizedBatchNorm3d(_SynchronizedBatchNorm):$/;"	c
+TEST_DIR	C:/Users/Cooper/localized-style-distortion\style_video.py	/^TEST_DIR  =jp(DATA_DIR, 'test')$/;"	v
+TLU	C:/Users/Cooper/localized-style-distortion\frn.py	/^class TLU(nn.Module):$/;"	c
+TLU	C:/Users/Cooper/localized-style-distortion\model.py	/^from frn import FRN, TLU$/;"	i
+TensorDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\__init__.py	/^from .dataset import Dataset, TensorDataset, ConcatDataset$/;"	i
+TensorDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^class TensorDataset(Dataset):$/;"	c
+TestDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^class TestDataset(BaseDataset):$/;"	c
+TestDataset	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.dataset import TestDataset$/;"	i
+ToTensor	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^class ToTensor:$/;"	c
+TorchTestCase	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^from sync_batchnorm.unittest import TorchTestCase$/;"	i
+TorchTestCase	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^from sync_batchnorm.unittest import TorchTestCase$/;"	i
+TorchTestCase	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\unittest.py	/^class TorchTestCase(unittest.TestCase):$/;"	c
+TrainDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^class TrainDataset(BaseDataset):$/;"	c
+TrainDataset	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.dataset import TrainDataset$/;"	i
+UPerNet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^class UPerNet(nn.Module):$/;"	c
+UserScatteredDataParallel	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\__init__.py	/^from .parallel import UserScatteredDataParallel, user_scattered_collate, async_copy_to$/;"	i
+UserScatteredDataParallel	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\__init__.py	/^from .data_parallel import UserScatteredDataParallel, user_scattered_collate, async_copy_to$/;"	i
+UserScatteredDataParallel	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^class UserScatteredDataParallel(DictGatherDataParallel):$/;"	c
+UserScatteredDataParallel	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.lib.nn import UserScatteredDataParallel, user_scattered_collate, patch_replication_callback$/;"	i
+ValDataset	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.dataset import ValDataset$/;"	i
+ValDataset	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.dataset import ValDataset$/;"	i
+ValDataset	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^class ValDataset(BaseDataset):$/;"	c
+Variable	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^from torch.autograd import Variable$/;"	i
+Variable	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^from torch.autograd import Variable$/;"	i
+Variable	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\unittest.py	/^from torch.autograd import Variable$/;"	i
+Variable	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^from torch.autograd import Variable$/;"	i
+Vgg16	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from vgg import Vgg16$/;"	i
+Vgg16	C:/Users/Cooper/localized-style-distortion\vgg.py	/^class Vgg16(torch.nn.Module):$/;"	c
+VideoReader	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^class VideoReader:$/;"	c
+VideoReader	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^class VideoReader:$/;"	c
+VideoReader	C:/Users/Cooper/localized-style-distortion\style_video.py	/^from ffmpeg_tools import VideoReader, VideoWriter$/;"	i
+VideoReader	C:/Users/Cooper/localized-style-distortion\test.py	/^from ffmpeg_tools import VideoReader, VideoWriter$/;"	i
+VideoWriter	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^class VideoWriter:$/;"	c
+VideoWriter	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^class VideoWriter:$/;"	c
+VideoWriter	C:/Users/Cooper/localized-style-distortion\style_video.py	/^from ffmpeg_tools import VideoReader, VideoWriter$/;"	i
+VideoWriter	C:/Users/Cooper/localized-style-distortion\test.py	/^from ffmpeg_tools import VideoReader, VideoWriter$/;"	i
+WeightedRandomSampler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^class WeightedRandomSampler(Sampler):$/;"	c
+_BatchNorm	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^from torch.nn.modules.batchnorm import _BatchNorm$/;"	i
+_C	C:/Users/Cooper/localized-style-distortion\mit_semseg\config\defaults.py	/^_C = CN()$/;"	v
+_ChildMessage	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^_ChildMessage = collections.namedtuple('_ChildMessage', ['sum', 'ssum', 'sum_size'])$/;"	v
+_MasterMessage	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^_MasterMessage = collections.namedtuple('_MasterMessage', ['sum', 'inv_std'])$/;"	v
+_MasterRegistry	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^_MasterRegistry = collections.namedtuple('MasterRegistry', ['result'])$/;"	v
+_SIGCHLD_handler_set	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^_SIGCHLD_handler_set = False$/;"	v
+_SlavePipeBase	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^_SlavePipeBase = collections.namedtuple('_SlavePipeBase', ['identifier', 'queue', 'result'])$/;"	v
+_SynchronizedBatchNorm	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^class _SynchronizedBatchNorm(_BatchNorm):$/;"	c
+_VideoIterator	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^class _VideoIterator:$/;"	c
+_VideoIterator	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^class _VideoIterator:$/;"	c
+__add__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __add__(self, other):$/;"	m	class:Dataset	file:
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^__all__ = ['SynchronizedBatchNorm1d', 'SynchronizedBatchNorm2d', 'SynchronizedBatchNorm3d']$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^__all__ = ['FutureResult', 'SlavePipe', 'SyncMaster']$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^__all__ = [$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^__all__ = ['UserScatteredDataParallel', 'user_scattered_collate', 'async_copy_to']$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^__all__ = ['as_variable', 'as_numpy', 'mark_volatile']$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^__all__ = ['hrnetv2']$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^__all__ = ['mobilenetv2']$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^__all__ = ['ResNet', 'resnet18', 'resnet50', 'resnet101'] # resnet101 is coming soon!$/;"	v
+__all__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^__all__ = ['ResNeXt', 'resnext101'] # support resnext 101$/;"	v
+__call__	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def __call__(self, sample):$/;"	m	class:RandomHorizontalFlip	file:
+__call__	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def __call__(self, sample):$/;"	m	class:Resize	file:
+__call__	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def __call__(self, sample):$/;"	m	class:ToTensor	file:
+__call__	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:Dummy	file:
+__data_parallel_replicate__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def __data_parallel_replicate__(self, ctx, copy_id):$/;"	m	class:_SynchronizedBatchNorm	file:
+__del__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __del__(self):$/;"	m	class:_VideoIterator	file:
+__del__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __del__(self):$/;"	m	class:DataLoaderIter	file:
+__del__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __del__(self):$/;"	m	class:_VideoIterator	file:
+__enter__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __enter__(self):$/;"	m	class:VideoWriter	file:
+__enter__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __enter__(self):$/;"	m	class:VideoWriter	file:
+__enter__	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def __enter__(self):$/;"	m	class:Dummy	file:
+__exit__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:VideoWriter	file:
+__exit__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:VideoWriter	file:
+__exit__	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:Dummy	file:
+__getattribute__	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def __getattribute__(self, item):$/;"	m	class:Dummy	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def __getitem__(self, index):$/;"	m	class:SceneFlowDataset	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __getitem__(self, index):$/;"	m	class:TestDataset	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __getitem__(self, index):$/;"	m	class:TrainDataset	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __getitem__(self, index):$/;"	m	class:ValDataset	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __getitem__(self, idx):$/;"	m	class:ConcatDataset	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __getitem__(self, idx):$/;"	m	class:Subset	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __getitem__(self, index):$/;"	m	class:Dataset	file:
+__getitem__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __getitem__(self, index):$/;"	m	class:TensorDataset	file:
+__getstate__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __getstate__(self):$/;"	m	class:DataLoaderIter	file:
+__init__	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def __init__(self, new_width, new_height):$/;"	m	class:Resize
+__init__	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def __init__(self, p=0.5):$/;"	m	class:RandomHorizontalFlip
+__init__	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def __init__(self, root_dir, transform, use_both_sides=False):$/;"	m	class:SceneFlowDataset
+__init__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __init__(self, filepath, fps=None, format='rgb', ffmpeg_cmd="ffmpeg", ffprobe_cmd="ffprobe"):$/;"	m	class:VideoReader
+__init__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __init__(self, reader):$/;"	m	class:_VideoIterator
+__init__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __init__(self,$/;"	m	class:VideoWriter
+__init__	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def __init__(self, num_features):$/;"	m	class:TLU
+__init__	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def __init__(self, num_features, eps=1e-6, is_eps_leanable=False):$/;"	m	class:FRN
+__init__	C:/Users/Cooper/localized-style-distortion\lib.py	/^    def __init__(self, state_dict_path, use_gpu=True, gpu_device=None, frn=False):$/;"	m	class:ReCoNetModel
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __init__(self, odgt, opt, **kwargs):$/;"	m	class:BaseDataset
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __init__(self, odgt, opt, **kwargs):$/;"	m	class:TestDataset
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __init__(self, root_dataset, odgt, opt, **kwargs):$/;"	m	class:ValDataset
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __init__(self, root_dataset, odgt, opt, batch_per_gpu=1, **kwargs):$/;"	m	class:TrainDataset
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def __init__(self, num_features, eps=1e-5, momentum=0.001, affine=True):$/;"	m	class:_SynchronizedBatchNorm
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def __init__(self):$/;"	m	class:FutureResult
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def __init__(self, master_callback):$/;"	m	class:SyncMaster
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __init__(self, dataset, batch_size=1, shuffle=False, sampler=None, batch_sampler=None,$/;"	m	class:DataLoader
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __init__(self, exc_info):$/;"	m	class:ExceptionWrapper
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __init__(self, loader):$/;"	m	class:DataLoaderIter
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __init__(self, data_tensor, target_tensor):$/;"	m	class:TensorDataset
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __init__(self, dataset, indices):$/;"	m	class:Subset
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __init__(self, datasets):$/;"	m	class:ConcatDataset
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^    def __init__(self, dataset, num_replicas=None, rank=None):$/;"	m	class:DistributedSampler
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __init__(self, data_source):$/;"	m	class:RandomSampler
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __init__(self, data_source):$/;"	m	class:Sampler
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __init__(self, data_source):$/;"	m	class:SequentialSampler
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __init__(self, indices):$/;"	m	class:SubsetRandomSampler
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __init__(self, sampler, batch_size, drop_last):$/;"	m	class:BatchSampler
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __init__(self, weights, num_samples, replacement=True):$/;"	m	class:WeightedRandomSampler
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	m	class:BasicBlock
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	m	class:Bottleneck
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def __init__(self, n_class, **kwargs):$/;"	m	class:HRNetV2
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def __init__(self, num_branches, blocks, num_blocks, num_inchannels,$/;"	m	class:HighResolutionModule
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^    def __init__(self, inp, oup, stride, expand_ratio):$/;"	m	class:InvertedResidual
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^    def __init__(self, n_class=1000, input_size=224, width_mult=1.):$/;"	m	class:MobileNetV2
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self):$/;"	m	class:SegmentationModuleBase
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, net_enc, net_dec, crit, deep_sup_scale=None):$/;"	m	class:SegmentationModule
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, num_class=150, fc_dim=2048, use_softmax=False):$/;"	m	class:C1
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, num_class=150, fc_dim=2048, use_softmax=False):$/;"	m	class:C1DeepSup
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, num_class=150, fc_dim=4096,$/;"	m	class:PPM
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, num_class=150, fc_dim=4096,$/;"	m	class:PPMDeepsup
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, num_class=150, fc_dim=4096,$/;"	m	class:UPerNet
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, orig_net, dilate_scale=8):$/;"	m	class:MobileNetV2Dilated
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, orig_resnet):$/;"	m	class:Resnet
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, orig_resnet, dilate_scale=8):$/;"	m	class:ResnetDilated
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def __init__(self, state_dict_path, use_gpu=True, gpu_device=None, frn=False, cfg=None):$/;"	m	class:SegmentationModel
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    def __init__(self, block, layers, num_classes=1000):$/;"	m	class:ResNet
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	m	class:BasicBlock
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	m	class:Bottleneck
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^    def __init__(self, block, layers, groups=32, num_classes=1000):$/;"	m	class:ResNeXt
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^    def __init__(self, inplanes, planes, stride=1, groups=1, downsample=None):$/;"	m	class:GroupBottleneck
+__init__	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^    def __init__(self):$/;"	m	class:AverageMeter
+__init__	C:/Users/Cooper/localized-style-distortion\model.py	/^    def __init__(self, frn=False):$/;"	m	class:Decoder
+__init__	C:/Users/Cooper/localized-style-distortion\model.py	/^    def __init__(self, frn=False):$/;"	m	class:Encoder
+__init__	C:/Users/Cooper/localized-style-distortion\model.py	/^    def __init__(self, frn=False):$/;"	m	class:ReCoNet
+__init__	C:/Users/Cooper/localized-style-distortion\model.py	/^    def __init__(self, in_channels, out_channels, kernel_size, frn=False):$/;"	m	class:ResLayer
+__init__	C:/Users/Cooper/localized-style-distortion\model.py	/^    def __init__(self, in_channels, out_channels, kernel_size, stride):$/;"	m	class:ConvLayer
+__init__	C:/Users/Cooper/localized-style-distortion\model.py	/^    def __init__(self, in_channels, out_channels, kernel_size, stride):$/;"	m	class:ConvTanhLayer
+__init__	C:/Users/Cooper/localized-style-distortion\model.py	/^    def __init__(self, in_channels, out_channels, kernel_size, stride, activation=True, frn=False):$/;"	m	class:ConvNormLayer
+__init__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __init__(self, filepath, fps=None, format='rgb', ffmpeg_cmd="ffmpeg", ffprobe_cmd="ffprobe"):$/;"	m	class:VideoReader
+__init__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __init__(self, reader):$/;"	m	class:_VideoIterator
+__init__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __init__(self,$/;"	m	class:VideoWriter
+__init__	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def __init__(self):$/;"	m	class:RunningLossesContainer
+__init__	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Dummy
+__init__	C:/Users/Cooper/localized-style-distortion\vgg.py	/^    def __init__(self):$/;"	m	class:Vgg16
+__iter__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __iter__(self):$/;"	m	class:VideoReader	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __iter__(self):$/;"	m	class:_VideoIterator	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __iter__(self):$/;"	m	class:DataLoader	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __iter__(self):$/;"	m	class:DataLoaderIter	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^    def __iter__(self):$/;"	m	class:DistributedSampler	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __iter__(self):$/;"	m	class:BatchSampler	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __iter__(self):$/;"	m	class:RandomSampler	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __iter__(self):$/;"	m	class:Sampler	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __iter__(self):$/;"	m	class:SequentialSampler	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __iter__(self):$/;"	m	class:SubsetRandomSampler	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __iter__(self):$/;"	m	class:WeightedRandomSampler	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __iter__(self):$/;"	m	class:VideoReader	file:
+__iter__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __iter__(self):$/;"	m	class:_VideoIterator	file:
+__len__	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def __len__(self):$/;"	m	class:SceneFlowDataset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __len__(self):$/;"	m	class:TestDataset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __len__(self):$/;"	m	class:TrainDataset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def __len__(self):$/;"	m	class:ValDataset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __len__(self):$/;"	m	class:DataLoader	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __len__(self):$/;"	m	class:DataLoaderIter	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __len__(self):$/;"	m	class:ConcatDataset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __len__(self):$/;"	m	class:Dataset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __len__(self):$/;"	m	class:Subset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def __len__(self):$/;"	m	class:TensorDataset	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^    def __len__(self):$/;"	m	class:DistributedSampler	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __len__(self):$/;"	m	class:BatchSampler	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __len__(self):$/;"	m	class:RandomSampler	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __len__(self):$/;"	m	class:Sampler	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __len__(self):$/;"	m	class:SequentialSampler	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __len__(self):$/;"	m	class:SubsetRandomSampler	file:
+__len__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^    def __len__(self):$/;"	m	class:WeightedRandomSampler	file:
+__next__	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def __next__(self):$/;"	m	class:_VideoIterator	file:
+__next__	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def __next__(self):$/;"	m	class:DataLoaderIter	file:
+__next__	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def __next__(self):$/;"	m	class:_VideoIterator	file:
+__version__	C:/Users/Cooper/localized-style-distortion\mit_semseg\__init__.py	/^__version__ = '1.0.0'$/;"	v
+_accumulate	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^from torch._utils import _accumulate$/;"	i
+_add_weighted	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def _add_weighted(self, dest, delta, alpha=1, beta=1, bias=0):$/;"	m	class:_SynchronizedBatchNorm
+_async_copy	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^def _async_copy(inputs, device_ids):$/;"	f
+_async_copy_stream	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^def _async_copy_stream(inputs, device_ids):$/;"	f
+_checkBatchNormResult	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^    def _checkBatchNormResult(self, bn1, bn2, input, is_train, cuda=False):$/;"	m	class:SyncTestCase
+_check_branches	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def _check_branches(self, num_branches, blocks, num_blocks,$/;"	m	class:HighResolutionModule
+_check_input_dim	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def _check_input_dim(self, input):$/;"	m	class:SynchronizedBatchNorm1d
+_check_input_dim	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def _check_input_dim(self, input):$/;"	m	class:SynchronizedBatchNorm2d
+_check_input_dim	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def _check_input_dim(self, input):$/;"	m	class:SynchronizedBatchNorm3d
+_check_wait	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^def _check_wait(p):$/;"	f
+_check_wait	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^def _check_wait(p):$/;"	f
+_close	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def _close(self):$/;"	m	class:_VideoIterator
+_close	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def _close(self):$/;"	m	class:_VideoIterator
+_compute_mean_std	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def _compute_mean_std(self, sum_, ssum, size):$/;"	m	class:_SynchronizedBatchNorm
+_data_parallel_master	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def _data_parallel_master(self, intermediates):$/;"	m	class:_SynchronizedBatchNorm
+_default_param	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^def _default_param(value, default_value):$/;"	f
+_default_param	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^def _default_param(value, default_value):$/;"	f
+_error_if_any_worker_fails	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    _remove_worker_pids, _error_if_any_worker_fails$/;"	i
+_ffprobe	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^def _ffprobe(file, cmd):$/;"	f
+_ffprobe	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^def _ffprobe(file, cmd):$/;"	f
+_find_bn	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^def _find_bn(module):$/;"	f
+_get_batch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def _get_batch(self):$/;"	m	class:DataLoaderIter
+_get_stream	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^def _get_stream(device):$/;"	f
+_get_sub_batch	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def _get_sub_batch(self):$/;"	m	class:TrainDataset
+_initialize_weights	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^    def _initialize_weights(self):$/;"	m	class:MobileNetV2
+_make_branches	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def _make_branches(self, num_branches, block, num_blocks, num_channels):$/;"	m	class:HighResolutionModule
+_make_fuse_layers	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def _make_fuse_layers(self):$/;"	m	class:HighResolutionModule
+_make_layer	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def _make_layer(self, block, inplanes, planes, blocks, stride=1):$/;"	m	class:HRNetV2
+_make_layer	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    def _make_layer(self, block, planes, blocks, stride=1):$/;"	m	class:ResNet
+_make_layer	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^    def _make_layer(self, block, planes, blocks, stride=1, groups=1):$/;"	m	class:ResNeXt
+_make_one_branch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def _make_one_branch(self, branch_index, block, num_blocks, num_channels,$/;"	m	class:HighResolutionModule
+_make_stage	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def _make_stage(self, layer_config, num_inchannels,$/;"	m	class:HRNetV2
+_make_transition_layer	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def _make_transition_layer($/;"	m	class:HRNetV2
+_nostride_dilate	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def _nostride_dilate(self, m, dilate):$/;"	m	class:MobileNetV2Dilated
+_nostride_dilate	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def _nostride_dilate(self, m, dilate):$/;"	m	class:ResnetDilated
+_process_next_batch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def _process_next_batch(self, batch):$/;"	m	class:DataLoaderIter
+_put_indices	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def _put_indices(self):$/;"	m	class:DataLoaderIter
+_remove_worker_pids	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    _remove_worker_pids, _error_if_any_worker_fails$/;"	i
+_set_SIGCHLD_handler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^def _set_SIGCHLD_handler():$/;"	f
+_set_worker_pids	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    from torch._C import _set_worker_pids$/;"	i
+_set_worker_pids	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    from torch._C import _update_worker_pids as _set_worker_pids$/;"	i
+_set_worker_signal_handlers	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    _remove_worker_pids, _error_if_any_worker_fails$/;"	i
+_shutdown_workers	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def _shutdown_workers(self):$/;"	m	class:DataLoaderIter
+_streams	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^_streams = None$/;"	v
+_sum_ft	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^def _sum_ft(tensor):$/;"	f
+_syncParameters	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^    def _syncParameters(self, bn1, bn2):$/;"	m	class:SyncTestCase
+_unsqueeze_ft	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^def _unsqueeze_ft(tensor):$/;"	f
+_use_shared_memory	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^_use_shared_memory = False$/;"	v
+_worker_loop	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^def _worker_loop(dataset, index_queue, data_queue, collate_fn, seed, init_fn, worker_id):$/;"	f
+_worker_manager_loop	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^def _worker_manager_loop(in_queue, out_queue, done_event, pin_memory, device_id):$/;"	f
+abstractmethod	C:/Users/Cooper/localized-style-distortion\dataset.py	/^from abc import abstractmethod$/;"	i
+accuracy	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, setup_logger$/;"	i
+accuracy	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, parse_devices, setup_logger$/;"	i
+accuracy	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def accuracy(preds, label):$/;"	f
+add	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^    def add(self, val, weight):$/;"	m	class:AverageMeter
+adjust_learning_rate	C:/Users/Cooper/localized-style-distortion\train.py	/^def adjust_learning_rate(optimizers, cur_iter, cfg):$/;"	f
+alpha	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                alpha = args.alpha$/;"	v
+argparse	C:/Users/Cooper/localized-style-distortion\eval.py	/^import argparse$/;"	i
+argparse	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^import argparse$/;"	i
+argparse	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import argparse$/;"	i
+argparse	C:/Users/Cooper/localized-style-distortion\style_video.py	/^import argparse$/;"	i
+argparse	C:/Users/Cooper/localized-style-distortion\test.py	/^import argparse$/;"	i
+argparse	C:/Users/Cooper/localized-style-distortion\train.py	/^import argparse$/;"	i
+args	C:/Users/Cooper/localized-style-distortion\eval.py	/^    args = parser.parse_args()$/;"	v
+args	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^    args = parser.parse_args()$/;"	v
+args	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    args = parser.parse_args()$/;"	v
+args	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    args = parser.parse_args()$/;"	v
+args	C:/Users/Cooper/localized-style-distortion\test.py	/^    args = parser.parse_args()$/;"	v
+args	C:/Users/Cooper/localized-style-distortion\train.py	/^    args = parser.parse_args()$/;"	v
+as_numpy	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.lib.utils import as_numpy$/;"	i
+as_numpy	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.lib.utils import as_numpy$/;"	i
+as_numpy	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\unittest.py	/^def as_numpy(v):$/;"	f
+as_numpy	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^def as_numpy(obj):$/;"	f
+as_numpy	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from mit_semseg.lib.utils import as_numpy$/;"	i
+as_numpy	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.lib.utils import as_numpy$/;"	i
+as_variable	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^def as_variable(obj):$/;"	f
+assertTensorClose	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\unittest.py	/^    def assertTensorClose(self, a, b, atol=1e-3, rtol=1e-3):$/;"	m	class:TorchTestCase
+async_copy_to	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.lib.nn import user_scattered_collate, async_copy_to$/;"	i
+async_copy_to	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.lib.nn import user_scattered_collate, async_copy_to$/;"	i
+async_copy_to	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\__init__.py	/^from .parallel import UserScatteredDataParallel, user_scattered_collate, async_copy_to$/;"	i
+async_copy_to	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\__init__.py	/^from .data_parallel import UserScatteredDataParallel, user_scattered_collate, async_copy_to$/;"	i
+async_copy_to	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^def async_copy_to(obj, dev, main_stream=None):$/;"	f
+async_copy_to	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.lib.nn import user_scattered_collate, async_copy_to$/;"	i
+author	C:/Users/Cooper/localized-style-distortion\setup.py	/^    author='MIT CSAIL',$/;"	v
+average	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^    def average(self):$/;"	m	class:AverageMeter
+average_losses	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                        average_losses = running_losses.get()$/;"	v
+batch	C:/Users/Cooper/localized-style-distortion\style_video.py	/^                    batch = []$/;"	v
+batch	C:/Users/Cooper/localized-style-distortion\style_video.py	/^                    batch = np.array(batch)$/;"	v
+batch	C:/Users/Cooper/localized-style-distortion\style_video.py	/^            batch = []$/;"	v
+batch_size	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                                                batch_size=batch_size,$/;"	v
+batch_size	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        batch_size = 2$/;"	v
+batch_size	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    batch_size = args.batch_size$/;"	v
+beta	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                beta = args.beta$/;"	v
+bg	C:/Users/Cooper/localized-style-distortion\main.py	/^	bg = cv2.multiply(1.0-m, im2)$/;"	v
+bg2	C:/Users/Cooper/localized-style-distortion\main.py	/^	bg2 = cv2.multiply(1.0-m, im3)$/;"	v
+bin_mask_str	C:/Users/Cooper/localized-style-distortion\main.py	/^bin_mask_str = 'images\/mask-images\/'+input_name+'-bin-mask.png'$/;"	v
+bisect	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^import bisect$/;"	i
+blocks_dict	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^blocks_dict = {$/;"	v
+blurMaskFP	C:/Users/Cooper/localized-style-distortion\main.py	/^blurMaskFP = 'images\/mask-images\/'+blurredMaskFN$/;"	v
+blurSigma	C:/Users/Cooper/localized-style-distortion\main.py	/^blurSigma = 30$/;"	v
+blurredMaskFN	C:/Users/Cooper/localized-style-distortion\main.py	/^blurredMaskFN = input_name+'-blurred-mask.png'$/;"	v
+build_decoder	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def build_decoder(arch='ppm_deepsup',$/;"	m	class:ModelBuilder
+build_encoder	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def build_encoder(arch='resnet50dilated', fc_dim=512, weights=''):$/;"	m	class:ModelBuilder
+ceil	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^from math import ceil$/;"	i
+ceil	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^from math import ceil$/;"	i
+cfg	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.config import cfg$/;"	i
+cfg	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.config import cfg$/;"	i
+cfg	C:/Users/Cooper/localized-style-distortion\mit_semseg\config\__init__.py	/^from .defaults import _C as cfg$/;"	i
+cfg	C:/Users/Cooper/localized-style-distortion\style_video.py	/^from mit_semseg.config import cfg$/;"	i
+cfg	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.config import cfg$/;"	i
+cfg	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.config import cfg$/;"	i
+check_call	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\data\download_data.py	/^from subprocess import check_call$/;"	i
+check_call	C:/Users/Cooper/localized-style-distortion\style_video.py	/^from subprocess import check_call$/;"	i
+check_output	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+check_output	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^from subprocess import Popen, DEVNULL, PIPE, check_output$/;"	i
+checkpoint	C:/Users/Cooper/localized-style-distortion\train.py	/^def checkpoint(nets, history, cfg, epoch):$/;"	f
+collections	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^import collections$/;"	i
+collections	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^import collections$/;"	i
+collections	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^import collections$/;"	i
+collections	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import collections$/;"	i
+collections	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^import collections$/;"	i
+colorEncode	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, setup_logger$/;"	i
+colorEncode	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, parse_devices, setup_logger$/;"	i
+colorEncode	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def colorEncode(labelmap, colors, mode='RGB'):$/;"	f
+colorEncode	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.utils import colorEncode, find_recursive, setup_logger$/;"	i
+colors	C:/Users/Cooper/localized-style-distortion\eval.py	/^colors = loadmat('data\/color150.mat')['colors']$/;"	v
+colors	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^colors = loadmat('data\/color150.mat')['colors']$/;"	v
+colors	C:/Users/Cooper/localized-style-distortion\test.py	/^colors = loadmat('data\/color150.mat')['colors']$/;"	v
+command	C:/Users/Cooper/localized-style-distortion\main.py	/^command ='source mask.sh '+input_name+' && source style.sh '+input_name + ' ' + style$/;"	v
+content_loss	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^def content_loss($/;"	f
+conv3x3	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	f
+conv3x3	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	f
+conv3x3	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	f
+conv3x3_bn_relu	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^def conv3x3_bn_relu(in_planes, out_planes, stride=1):$/;"	f
+conv_1x1_bn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^def conv_1x1_bn(inp, oup):$/;"	f
+conv_bn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^def conv_bn(inp, oup, stride):$/;"	f
+create_folder_for_file	C:/Users/Cooper/localized-style-distortion\style_video.py	/^def create_folder_for_file(path):$/;"	f
+create_optimizers	C:/Users/Cooper/localized-style-distortion\train.py	/^def create_optimizers(nets, cfg):$/;"	f
+csv	C:/Users/Cooper/localized-style-distortion\test.py	/^import csv$/;"	i
+cuda	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^import torch.cuda as cuda$/;"	i
+cummulative_sizes	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def cummulative_sizes(self):$/;"	m	class:ConcatDataset
+cumsum	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^    def cumsum(sequence):$/;"	m	class:ConcatDataset
+current_dir	C:/Users/Cooper/localized-style-distortion\lib.py	/^current_dir = os.path.dirname(__file__)$/;"	v
+custom_transforms	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import custom_transforms$/;"	i
+cv2	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^import cv2$/;"	i
+cv2	C:/Users/Cooper/localized-style-distortion\main.py	/^import cv2$/;"	i
+data	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import torch.utils.data$/;"	i
+dataset	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        dataset = monkaa + flyingthings3d$/;"	v
+datetime	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from datetime import datetime$/;"	i
+default	C:/Users/Cooper/localized-style-distortion\eval.py	/^        default="config\/ade20k-resnet50dilated-ppm_deepsup.yaml",$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\eval.py	/^        default=0,$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\eval.py	/^        default=None,$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        default="0-3",$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        default="config\/ade20k-resnet50dilated-ppm_deepsup.yaml",$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        default=None,$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\style_video.py	/^        default="config\/ade20k-resnet50dilated-ppm_deepsup.yaml",$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\test.py	/^        default="config\/ade20k-resnet50dilated-ppm_deepsup.yaml",$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\test.py	/^        default=0,$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\test.py	/^        default=None,$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\train.py	/^        default="0-3",$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\train.py	/^        default="config\/ade20k-resnet50dilated-ppm_deepsup.yaml",$/;"	v
+default	C:/Users/Cooper/localized-style-distortion\train.py	/^        default=None,$/;"	v
+default_collate	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^def default_collate(batch):$/;"	f
+defaultdict	C:/Users/Cooper/localized-style-distortion\utils.py	/^from collections import defaultdict$/;"	i
+description	C:/Users/Cooper/localized-style-distortion\eval.py	/^        description="PyTorch Semantic Segmentation Validation"$/;"	v
+description	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        description="PyTorch Semantic Segmentation Validation"$/;"	v
+description	C:/Users/Cooper/localized-style-distortion\setup.py	/^    description='Pytorch implementation for Semantic Segmentation\/Scene Parsing on MIT ADE20K dataset',$/;"	v
+description	C:/Users/Cooper/localized-style-distortion\test.py	/^        description="PyTorch Semantic Segmentation Testing"$/;"	v
+description	C:/Users/Cooper/localized-style-distortion\train.py	/^        description="PyTorch Semantic Segmentation Training"$/;"	v
+device	C:/Users/Cooper/localized-style-distortion\lib.py	/^    def device(self):$/;"	m	class:ReCoNetModel
+device	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def device(self):$/;"	m	class:SegmentationModel
+dict_gather	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^def dict_gather(outputs, target_device, dim=0):$/;"	f
+download	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\data\download_data.py	/^def download(url, directory):$/;"	f
+download_unpack_delete	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\data\download_data.py	/^def download_unpack_delete(url, directory, filename=None):$/;"	f
+drop_last	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                                                drop_last=True)$/;"	v
+evaluate	C:/Users/Cooper/localized-style-distortion\eval.py	/^def evaluate(segmentation_module, loader, cfg, gpu):$/;"	f
+evaluate	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^def evaluate(segmentation_module, loader, cfg, gpu_id, result_queue):$/;"	f
+execute_replication_callbacks	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^def execute_replication_callbacks(modules):$/;"	f
+expansion	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    expansion = 1$/;"	v	class:BasicBlock
+expansion	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    expansion = 4$/;"	v	class:Bottleneck
+expansion	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    expansion = 1$/;"	v	class:BasicBlock
+expansion	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    expansion = 4$/;"	v	class:Bottleneck
+expansion	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^    expansion = 2$/;"	v	class:GroupBottleneck
+extra	C:/Users/Cooper/localized-style-distortion\main.py	/^extra = False$/;"	v
+extra_repr	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def extra_repr(self):$/;"	m	class:FRN
+extra_repr	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def extra_repr(self):$/;"	m	class:TLU
+feature_maps	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                feature_maps = model.encoder(reconet_input)$/;"	v
+feature_temporal_loss	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^def feature_temporal_loss($/;"	f
+fg	C:/Users/Cooper/localized-style-distortion\main.py	/^	fg = cv2.multiply(m, im1)$/;"	v
+find_recursive	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def find_recursive(root_dir, ext='.jpg'):$/;"	f
+find_recursive	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.utils import colorEncode, find_recursive, setup_logger$/;"	i
+flip_image	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def flip_image(image):$/;"	m	class:RandomHorizontalFlip
+flip_optical_flow	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def flip_optical_flow(optical_flow):$/;"	m	class:RandomHorizontalFlip
+flyingthings3d	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        flyingthings3d = FlyingThings3DDataset(os.path.join(args.data_dir, "flyingthings3d"), transform)$/;"	v
+fnmatch	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^import fnmatch$/;"	i
+forward	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def forward(self, x):$/;"	m	class:FRN
+forward	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def forward(self, x):$/;"	m	class:TLU
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^    def forward(self, input):$/;"	m	class:_SynchronizedBatchNorm
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def forward(self, x):$/;"	m	class:BasicBlock
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def forward(self, x):$/;"	m	class:Bottleneck
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def forward(self, x):$/;"	m	class:HighResolutionModule
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def forward(self, x, return_feature_maps=False):$/;"	m	class:HRNetV2
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^    def forward(self, x):$/;"	m	class:InvertedResidual
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^    def forward(self, x):$/;"	m	class:MobileNetV2
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, conv_out, segSize=None):$/;"	m	class:C1
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, conv_out, segSize=None):$/;"	m	class:C1DeepSup
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, conv_out, segSize=None):$/;"	m	class:PPM
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, conv_out, segSize=None):$/;"	m	class:PPMDeepsup
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, conv_out, segSize=None):$/;"	m	class:UPerNet
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, imgs, *, segSize=None):$/;"	m	class:SegmentationModule
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, x, return_feature_maps=False):$/;"	m	class:MobileNetV2Dilated
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, x, return_feature_maps=False):$/;"	m	class:Resnet
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def forward(self, x, return_feature_maps=False):$/;"	m	class:ResnetDilated
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    def forward(self, x):$/;"	m	class:BasicBlock
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    def forward(self, x):$/;"	m	class:Bottleneck
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^    def forward(self, x):$/;"	m	class:ResNet
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^    def forward(self, x):$/;"	m	class:GroupBottleneck
+forward	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^    def forward(self, x):$/;"	m	class:ResNeXt
+forward	C:/Users/Cooper/localized-style-distortion\model.py	/^    def forward(self, x):$/;"	m	class:ConvLayer
+forward	C:/Users/Cooper/localized-style-distortion\model.py	/^    def forward(self, x):$/;"	m	class:ConvNormLayer
+forward	C:/Users/Cooper/localized-style-distortion\model.py	/^    def forward(self, x):$/;"	m	class:ConvTanhLayer
+forward	C:/Users/Cooper/localized-style-distortion\model.py	/^    def forward(self, x):$/;"	m	class:Decoder
+forward	C:/Users/Cooper/localized-style-distortion\model.py	/^    def forward(self, x):$/;"	m	class:Encoder
+forward	C:/Users/Cooper/localized-style-distortion\model.py	/^    def forward(self, x):$/;"	m	class:ReCoNet
+forward	C:/Users/Cooper/localized-style-distortion\model.py	/^    def forward(self, x):$/;"	m	class:ResLayer
+forward	C:/Users/Cooper/localized-style-distortion\vgg.py	/^    def forward(self, x):$/;"	m	class:Vgg16
+forward_optical_flow_path	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def forward_optical_flow_path(self, root, part, subset, scene, side, frame_number):$/;"	m	class:FlyingThings3DDataset
+forward_optical_flow_path	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def forward_optical_flow_path(self, root, scene, side, frame_number):$/;"	m	class:MonkaaDataset
+fraction	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^def fraction(s):$/;"	f
+fraction	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^def fraction(s):$/;"	f
+frame_number	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def frame_number(filename):$/;"	m	class:SceneFlowDataset
+functools	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^import functools$/;"	i
+functools	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^import functools$/;"	i
+gamma	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                gamma = args.gamma$/;"	v
+gather	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^    def gather(self, outputs, output_device):$/;"	m	class:DictGatherDataParallel
+gather_map	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^    def gather_map(outputs):$/;"	f	function:dict_gather
+get	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def get(self):$/;"	m	class:FutureResult
+get	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def get(self):$/;"	m	class:RunningLossesContainer
+get_num_inchannels	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^    def get_num_inchannels(self):$/;"	m	class:HighResolutionModule
+get_path	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    get_path = lambda name: os.path.join(input_dir, name)$/;"	v
+get_pred	C:/Users/Cooper/localized-style-distortion\test.py	/^    def get_pred(batch_data):$/;"	f	function:test
+get_rank	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^from torch.distributed import get_world_size, get_rank$/;"	i
+get_world_size	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^from torch.distributed import get_world_size, get_rank$/;"	i
+global_step	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    global_step = 0$/;"	v
+gpus	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^    gpus = [int(x) for x in gpus]$/;"	v
+gpus	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^    gpus = [x.replace('gpu', '') for x in gpus]$/;"	v
+gpus	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^    gpus = parse_devices(args.gpus)$/;"	v
+gpus	C:/Users/Cooper/localized-style-distortion\train.py	/^    gpus = [int(x) for x in gpus]$/;"	v
+gpus	C:/Users/Cooper/localized-style-distortion\train.py	/^    gpus = [x.replace('gpu', '') for x in gpus]$/;"	v
+gpus	C:/Users/Cooper/localized-style-distortion\train.py	/^    gpus = parse_devices(args.gpus)$/;"	v
+gram_matrix	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+gram_matrix	C:/Users/Cooper/localized-style-distortion\utils.py	/^def gram_matrix(feature_map):$/;"	f
+grid	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                            grid = torchvision.utils.make_grid([styled_train_image_1, styled_train_image_2])$/;"	v
+group_weight	C:/Users/Cooper/localized-style-distortion\train.py	/^def group_weight(module):$/;"	f
+handler	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    def handler(signum, frame):$/;"	f	function:_set_SIGCHLD_handler
+handy_var	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^def handy_var(a, unbias=True):$/;"	f
+handy_var	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^def handy_var(a, unbias=True):$/;"	f
+help	C:/Users/Cooper/localized-style-distortion\eval.py	/^        help="Modify config options using the command-line",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\eval.py	/^        help="gpu to use"$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\eval.py	/^        help="path to config file",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        help="Modify config options using the command-line",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        help="gpus to use, e.g. 0-3 or 0,1,2,3"$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        help="path to config file",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\style_video.py	/^        help="path to config file",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\test.py	/^        help="Modify config options using the command-line",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\test.py	/^        help="gpu id for evaluation"$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\test.py	/^        help="path to config file",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\train.py	/^        help="Modify config options using the command-line",$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\train.py	/^        help="gpus to use, e.g. 0-3 or 0,1,2,3"$/;"	v
+help	C:/Users/Cooper/localized-style-distortion\train.py	/^        help="path to config file",$/;"	v
+hrnet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from . import resnet, resnext, mobilenet, hrnet$/;"	i
+hrnetv2	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^def hrnetv2(pretrained=False, **kwargs):$/;"	f
+im1	C:/Users/Cooper/localized-style-distortion\main.py	/^	im1 = cv2.imread(im1_fn).astype(float)$/;"	v
+im1_fn	C:/Users/Cooper/localized-style-distortion\main.py	/^	im1_fn = 'images\/style-transferred-images\/'+name+'-'+style1+'.jpg'$/;"	v
+im2	C:/Users/Cooper/localized-style-distortion\main.py	/^	im2 = cv2.imread(im2_fn).astype(float)$/;"	v
+im2_fn	C:/Users/Cooper/localized-style-distortion\main.py	/^	im2_fn = 'images\/style-transferred-images\/'+name+'-'+style2+'.jpg'$/;"	v
+im3	C:/Users/Cooper/localized-style-distortion\main.py	/^	im3 = cv2.imread(im3_fn).astype(float)$/;"	v
+im3_fn	C:/Users/Cooper/localized-style-distortion\main.py	/^	im3_fn = 'images\/style-transferred-images\/'+name+'-'+style3+'.jpg'$/;"	v
+im_out	C:/Users/Cooper/localized-style-distortion\main.py	/^	im_out = fg + bg*0.8 + bg2*0.2$/;"	v
+image_to_tensor	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def image_to_tensor(image):$/;"	m	class:ToTensor
+img_transform	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def img_transform(self, img):$/;"	m	class:BaseDataset
+imgs	C:/Users/Cooper/localized-style-distortion\test.py	/^        imgs = [args.imgs]$/;"	v
+imgs	C:/Users/Cooper/localized-style-distortion\test.py	/^        imgs = find_recursive(args.imgs)$/;"	v
+imresize	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^def imresize(im, size, interp='bilinear'):$/;"	f
+initialize	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^    def initialize(self, val, weight):$/;"	m	class:AverageMeter
+input	C:/Users/Cooper/localized-style-distortion\main.py	/^input = cv2.imread(input_str)$/;"	v
+input	C:/Users/Cooper/localized-style-distortion\main.py	/^input = input.astype(float)$/;"	v
+input_dir	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    input_dir =  os.path.join(DATA_DIR, args.input)$/;"	v
+input_name	C:/Users/Cooper/localized-style-distortion\main.py	/^input_name = 'hotpot'$/;"	v
+input_str	C:/Users/Cooper/localized-style-distortion\main.py	/^input_str = 'images\/content-images\/'+input_name+'.jpg'$/;"	v
+input_vgg_features	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                input_vgg_features = vgg(vgg_input_frame)$/;"	v
+install_requires	C:/Users/Cooper/localized-style-distortion\setup.py	/^    install_requires=[$/;"	v
+int_classes	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^from torch._six import string_classes, int_classes$/;"	i
+intersectionAndUnion	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, setup_logger$/;"	i
+intersectionAndUnion	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, parse_devices, setup_logger$/;"	i
+intersectionAndUnion	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def intersectionAndUnion(imPred, imLab, numClass):$/;"	f
+iterate_entries	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def iterate_entries(self, root_dir, use_both_sides):$/;"	m	class:FlyingThings3DDataset
+iterate_entries	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def iterate_entries(self, root_dir, use_both_sides):$/;"	m	class:MonkaaDataset
+iterate_entries	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def iterate_entries(self, root_dir, use_both_sides):$/;"	m	class:SceneFlowDataset
+jp	C:/Users/Cooper/localized-style-distortion\style_video.py	/^def jp(*x):$/;"	f
+json	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^import json$/;"	i
+json	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^import json$/;"	i
+json	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^import json$/;"	i
+l2_squared	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+l2_squared	C:/Users/Cooper/localized-style-distortion\utils.py	/^def l2_squared(x):$/;"	f
+lambda_f	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                lambda_f = args.lambda_f$/;"	v
+lambda_o	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                lambda_o = args.lambda_o$/;"	v
+load_url	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^from .utils import load_url$/;"	i
+load_url	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^from .utils import load_url$/;"	i
+load_url	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^from .utils import load_url$/;"	i
+load_url	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^from .utils import load_url$/;"	i
+load_url	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\utils.py	/^def load_url(url, model_dir='.\/pretrained', map_location=None):$/;"	f
+loadmat	C:/Users/Cooper/localized-style-distortion\eval.py	/^from scipy.io import loadmat$/;"	i
+loadmat	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from scipy.io import loadmat$/;"	i
+loadmat	C:/Users/Cooper/localized-style-distortion\test.py	/^from scipy.io import loadmat$/;"	i
+logger	C:/Users/Cooper/localized-style-distortion\eval.py	/^    logger = setup_logger(distributed_rank=0)   # TODO$/;"	v
+logger	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^    logger = setup_logger(distributed_rank=0)   # TODO$/;"	v
+logger	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	C:/Users/Cooper/localized-style-distortion\test.py	/^    logger = setup_logger(distributed_rank=0)   # TODO$/;"	v
+logger	C:/Users/Cooper/localized-style-distortion\train.py	/^    logger = setup_logger(distributed_rank=0)   # TODO$/;"	v
+logging	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^import logging$/;"	i
+logging	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^import logging$/;"	i
+long_description	C:/Users/Cooper/localized-style-distortion\setup.py	/^    long_description = fh.read()$/;"	v
+long_description	C:/Users/Cooper/localized-style-distortion\setup.py	/^    long_description=long_description,$/;"	v
+long_description_content_type	C:/Users/Cooper/localized-style-distortion\setup.py	/^    long_description_content_type='text\/markdown',$/;"	v
+losses	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                losses = {$/;"	v
+m	C:/Users/Cooper/localized-style-distortion\main.py	/^	m = cv2.GaussianBlur(mask, (45, 45), 13)$/;"	v
+m	C:/Users/Cooper/localized-style-distortion\main.py	/^	m = m\/255.0$/;"	v
+m	C:/Users/Cooper/localized-style-distortion\main.py	/^m = cv2.GaussianBlur(m, (2*blurSigma+1, 2*blurSigma+1), blurSigma)$/;"	v
+m	C:/Users/Cooper/localized-style-distortion\main.py	/^m = cv2.imread(bin_mask_str).astype(float)\/255.0$/;"	v
+m	C:/Users/Cooper/localized-style-distortion\main.py	/^m = np.zeros(size, dtype=np.uint8)$/;"	v
+magnitude_squared	C:/Users/Cooper/localized-style-distortion\utils.py	/^def magnitude_squared(x):$/;"	f
+main	C:/Users/Cooper/localized-style-distortion\eval.py	/^def main(cfg, gpu):$/;"	f
+main	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^def main(cfg, gpus):$/;"	f
+main	C:/Users/Cooper/localized-style-distortion\test.py	/^def main(cfg, gpu):$/;"	f
+main	C:/Users/Cooper/localized-style-distortion\train.py	/^def main(cfg, gpus):$/;"	f
+mark_volatile	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^def mark_volatile(obj):$/;"	f
+mask	C:/Users/Cooper/localized-style-distortion\main.py	/^	mask = cv2.imread(mask_fn).astype(float)$/;"	v
+mask	C:/Users/Cooper/localized-style-distortion\main.py	/^mask = cv2.imread(mask_str)$/;"	v
+mask_fn	C:/Users/Cooper/localized-style-distortion\main.py	/^	mask_fn = 'images\/mask-images\/'+name+'-bin-mask.png'$/;"	v
+mask_str	C:/Users/Cooper/localized-style-distortion\main.py	/^mask_str = 'images\/mask-images\/'+input_name+'-mask.png'$/;"	v
+math	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^import math$/;"	i
+math	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^import math$/;"	i
+math	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^import math$/;"	i
+math	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^import math$/;"	i
+math	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^import math$/;"	i
+mean_l2_squared	C:/Users/Cooper/localized-style-distortion\utils.py	/^def mean_l2_squared(x):$/;"	f
+metavar	C:/Users/Cooper/localized-style-distortion\eval.py	/^        metavar="FILE",$/;"	v
+metavar	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        metavar="FILE",$/;"	v
+metavar	C:/Users/Cooper/localized-style-distortion\style_video.py	/^        metavar="FILE",$/;"	v
+metavar	C:/Users/Cooper/localized-style-distortion\test.py	/^        metavar="FILE",$/;"	v
+metavar	C:/Users/Cooper/localized-style-distortion\train.py	/^        metavar="FILE",$/;"	v
+mobilenet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from . import resnet, resnext, mobilenet, hrnet$/;"	i
+mobilenetv2	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^def mobilenetv2(pretrained=False, **kwargs):$/;"	f
+model	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        model = ReCoNet(frn=args.frn).cuda()$/;"	v
+model_urls	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^model_urls = {$/;"	v
+model_urls	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^model_urls = {$/;"	v
+model_urls	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^model_urls = {$/;"	v
+model_urls	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^model_urls = {$/;"	v
+monkaa	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        monkaa = MonkaaDataset(os.path.join(args.data_dir, "monkaa"), transform)$/;"	v
+motion_boundaries_path	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def motion_boundaries_path(self, root, part, subset, scene, side, frame_number):$/;"	m	class:FlyingThings3DDataset
+motion_boundaries_path	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def motion_boundaries_path(self, root, scene, side, frame_number):$/;"	m	class:MonkaaDataset
+mov_path	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    mov_path =  get_path('input.MOV')$/;"	v
+mp4_path	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    mp4_path =  get_path('input.mp4')$/;"	v
+multiprocessing	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import torch.multiprocessing as multiprocessing$/;"	i
+n_epochs	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        n_epochs = args.epochs$/;"	v
+name	C:/Users/Cooper/localized-style-distortion\main.py	/^	name = input_name$/;"	v
+name	C:/Users/Cooper/localized-style-distortion\setup.py	/^    name='mit_semseg',$/;"	v
+namedtuple	C:/Users/Cooper/localized-style-distortion\dataset.py	/^from collections import namedtuple$/;"	i
+names	C:/Users/Cooper/localized-style-distortion\test.py	/^names = {}$/;"	v
+nargs	C:/Users/Cooper/localized-style-distortion\eval.py	/^        nargs=argparse.REMAINDER,$/;"	v
+nargs	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        nargs=argparse.REMAINDER,$/;"	v
+nargs	C:/Users/Cooper/localized-style-distortion\test.py	/^        nargs=argparse.REMAINDER,$/;"	v
+nargs	C:/Users/Cooper/localized-style-distortion\train.py	/^        nargs=argparse.REMAINDER,$/;"	v
+nchw_to_nhwc	C:/Users/Cooper/localized-style-distortion\lib.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+nchw_to_nhwc	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+nchw_to_nhwc	C:/Users/Cooper/localized-style-distortion\utils.py	/^def nchw_to_nhwc(x):$/;"	f
+new_replicate	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^    def new_replicate(module, device_ids):$/;"	f	function:patch_replication_callback
+next	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    next = __next__  # Python 2 compatibility$/;"	v	class:DataLoaderIter
+nhwc_to_nchw	C:/Users/Cooper/localized-style-distortion\lib.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+nhwc_to_nchw	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+nhwc_to_nchw	C:/Users/Cooper/localized-style-distortion\utils.py	/^def nhwc_to_nchw(x):$/;"	f
+nn	C:/Users/Cooper/localized-style-distortion\eval.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\frn.py	/^from torch import nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^import torch.nn.functional as F$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^import torch.nn.functional as F$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\model.py	/^from torch import nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\test.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\train.py	/^import torch.nn as nn$/;"	i
+nn	C:/Users/Cooper/localized-style-distortion\vgg.py	/^import torch.nn as nn$/;"	i
+normalize_batch	C:/Users/Cooper/localized-style-distortion\utils.py	/^def normalize_batch(batch, mean, std):$/;"	f
+np	C:/Users/Cooper/localized-style-distortion\IO.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\eval.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\lib.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\main.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\unittest.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\style_video.py	/^import numpy as np$/;"	i
+np	C:/Users/Cooper/localized-style-distortion\test.py	/^import numpy as np$/;"	i
+nr_slaves	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def nr_slaves(self):$/;"	m	class:SyncMaster
+num_gpus	C:/Users/Cooper/localized-style-distortion\train.py	/^    num_gpus = len(gpus)$/;"	v
+num_workers	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                                                num_workers=3,$/;"	v
+numpy_type_map	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^numpy_type_map = {$/;"	v
+occlusion_mask	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                occlusion_mask = occlusion_mask_from_flow($/;"	v
+occlusion_mask_from_flow	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+occlusion_mask_from_flow	C:/Users/Cooper/localized-style-distortion\utils.py	/^def occlusion_mask_from_flow(optical_flow, reverse_optical_flow, motion_boundaries):$/;"	f
+optimizer	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)$/;"	v
+os	C:/Users/Cooper/localized-style-distortion\dataset.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\eval.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\lib.py	/^import os, sys$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\main.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\utils.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\data\download_data.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\style_video.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\test.py	/^import os$/;"	i
+os	C:/Users/Cooper/localized-style-distortion\train.py	/^import os$/;"	i
+out	C:/Users/Cooper/localized-style-distortion\main.py	/^out = style_layer + regular_layer$/;"	v
+out_fn	C:/Users/Cooper/localized-style-distortion\main.py	/^	out_fn = 'images\/output-images\/'+name+'-masked-'+style1+'-'+style2+'-'+style3+'.png'$/;"	v
+output_frame	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                output_frame = model.decoder(feature_maps)$/;"	v
+output_str	C:/Users/Cooper/localized-style-distortion\main.py	/^output_str = 'images\/output-images\/'+input_name+'-masked-'+style+'.png'$/;"	v
+output_temporal_loss	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^def output_temporal_loss($/;"	f
+output_vgg_features	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                output_vgg_features = vgg(vgg_output_frame)$/;"	v
+packages	C:/Users/Cooper/localized-style-distortion\setup.py	/^    packages=setuptools.find_packages(),$/;"	v
+parse_devices	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, parse_devices, setup_logger$/;"	i
+parse_devices	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def parse_devices(input_devices):$/;"	f
+parse_devices	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.utils import AverageMeter, parse_devices, setup_logger$/;"	i
+parse_input_list	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def parse_input_list(self, odgt, max_sample=-1, start_idx=-1, end_idx=-1):$/;"	m	class:BaseDataset
+parser	C:/Users/Cooper/localized-style-distortion\eval.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	C:/Users/Cooper/localized-style-distortion\test.py	/^    parser = argparse.ArgumentParser($/;"	v
+parser	C:/Users/Cooper/localized-style-distortion\train.py	/^    parser = argparse.ArgumentParser($/;"	v
+partial	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^        from functools import partial$/;"	i
+patch_replication_callback	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\__init__.py	/^from .replicate import DataParallelWithCallback, patch_replication_callback$/;"	i
+patch_replication_callback	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^def patch_replication_callback(data_parallel):$/;"	f
+patch_replication_callback	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.lib.nn import UserScatteredDataParallel, user_scattered_collate, patch_replication_callback$/;"	i
+pin_memory	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                                                pin_memory=True,$/;"	v
+pin_memory_batch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^def pin_memory_batch(batch):$/;"	f
+pixel_acc	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def pixel_acc(self, pred, label):$/;"	m	class:SegmentationModuleBase
+postprocess_reconet	C:/Users/Cooper/localized-style-distortion\lib.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+postprocess_reconet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+postprocess_reconet	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+postprocess_reconet	C:/Users/Cooper/localized-style-distortion\utils.py	/^def postprocess_reconet(images_batch):$/;"	f
+preprocess_for_reconet	C:/Users/Cooper/localized-style-distortion\lib.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+preprocess_for_reconet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from utils import preprocess_for_reconet, postprocess_reconet, Dummy, nhwc_to_nchw, nchw_to_nhwc$/;"	i
+preprocess_for_reconet	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+preprocess_for_reconet	C:/Users/Cooper/localized-style-distortion\utils.py	/^def preprocess_for_reconet(images_batch):$/;"	f
+preprocess_for_vgg	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+preprocess_for_vgg	C:/Users/Cooper/localized-style-distortion\utils.py	/^def preprocess_for_vgg(images_batch):$/;"	f
+previous_feature_maps	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                previous_feature_maps = model.encoder(previous_reconet_input)$/;"	v
+previous_input_vgg_features	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                previous_input_vgg_features = vgg(vgg_previous_input_frame)$/;"	v
+previous_output_frame	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                previous_output_frame = model.decoder(previous_feature_maps)$/;"	v
+previous_output_vgg_features	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                previous_output_vgg_features = vgg(vgg_previous_output_frame)$/;"	v
+previous_reconet_input	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                previous_reconet_input = preprocess_for_reconet(sample["previous_frame"])$/;"	v
+process_range	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def process_range(xpu, inp):$/;"	f
+put	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def put(self, result):$/;"	m	class:FutureResult
+queue	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^import queue$/;"	i
+queue	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    import Queue as queue$/;"	i
+queue	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^    import queue$/;"	i
+random	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^import random$/;"	i
+random	C:/Users/Cooper/localized-style-distortion\train.py	/^import random$/;"	i
+random_split	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^def random_split(dataset, lengths):$/;"	f
+randperm	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^from torch import randperm$/;"	i
+re	C:/Users/Cooper/localized-style-distortion\IO.py	/^import re$/;"	i
+re	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import re$/;"	i
+re	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^import re$/;"	i
+readFlow	C:/Users/Cooper/localized-style-distortion\IO.py	/^def readFlow(name):$/;"	f
+readFlow	C:/Users/Cooper/localized-style-distortion\dataset.py	/^from IO import readFlow$/;"	i
+readPFM	C:/Users/Cooper/localized-style-distortion\IO.py	/^def readPFM(file):$/;"	f
+reader	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    reader = VideoReader(os.path.abspath(mp4_path), fps=args.fps)$/;"	v
+reader	C:/Users/Cooper/localized-style-distortion\test.py	/^    reader = csv.reader(f)$/;"	v
+reconet_input	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                reconet_input = preprocess_for_reconet(sample["frame"])$/;"	v
+register_slave	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def register_slave(self, identifier):$/;"	m	class:SyncMaster
+regular_layer	C:/Users/Cooper/localized-style-distortion\main.py	/^regular_layer = cv2.multiply(1.0-m, input)$/;"	v
+remove	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\data\download_data.py	/^from os import remove$/;"	i
+replicate	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\replicate.py	/^    def replicate(self, module, device_ids):$/;"	m	class:DataParallelWithCallback
+reset	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def reset(self):$/;"	m	class:RunningLossesContainer
+reset_parameters	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def reset_parameters(self):$/;"	m	class:FRN
+reset_parameters	C:/Users/Cooper/localized-style-distortion\frn.py	/^    def reset_parameters(self):$/;"	m	class:TLU
+resize_image	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def resize_image(self, image):$/;"	m	class:Resize
+resize_optical_flow	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^    def resize_optical_flow(self, optical_flow):$/;"	m	class:Resize
+resize_optical_flow	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+resize_optical_flow	C:/Users/Cooper/localized-style-distortion\utils.py	/^def resize_optical_flow(optical_flow, h, w):$/;"	f
+resnet	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from . import resnet, resnext, mobilenet, hrnet$/;"	i
+resnet101	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^def resnet101(pretrained=False, **kwargs):$/;"	f
+resnet18	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^def resnet18(pretrained=False, **kwargs):$/;"	f
+resnet50	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^def resnet50(pretrained=False, **kwargs):$/;"	f
+resnext	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^from . import resnet, resnext, mobilenet, hrnet$/;"	i
+resnext101	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^def resnext101(pretrained=False, **kwargs):$/;"	f
+reverse_optical_flow_path	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def reverse_optical_flow_path(self, root, part, subset, scene, side, frame_number):$/;"	m	class:FlyingThings3DDataset
+reverse_optical_flow_path	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def reverse_optical_flow_path(self, root, scene, side, frame_number):$/;"	m	class:MonkaaDataset
+rgb_to_luminance	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+rgb_to_luminance	C:/Users/Cooper/localized-style-distortion\utils.py	/^def rgb_to_luminance(x):$/;"	f
+round2nearest_multiple	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def round2nearest_multiple(self, x, p):$/;"	m	class:BaseDataset
+run	C:/Users/Cooper/localized-style-distortion\lib.py	/^    def run(self, images):$/;"	m	class:ReCoNetModel
+run	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def run(self, images):$/;"	m	class:SegmentationModel
+run_master	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def run_master(self, master_msg):$/;"	m	class:SyncMaster
+run_slave	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^    def run_slave(self, msg):$/;"	m	class:SlavePipe
+running_losses	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    running_losses = RunningLossesContainer()$/;"	v
+sample	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                            sample = dataset[i]$/;"	v
+sample	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                sample = {name: tensor.cuda() for name, tensor in sample.items()}$/;"	v
+scatter	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^    def scatter(self, inputs, kwargs, device_ids):$/;"	m	class:UserScatteredDataParallel
+segm_transform	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^    def segm_transform(self, segm):$/;"	m	class:BaseDataset
+segmentation_model	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    segmentation_model = SegmentationModel(args.model, use_gpu=not args.use_cpu, gpu_device=args.gpu_device, cfg=cfg)$/;"	v
+segmentation_writer	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    segmentation_writer = VideoWriter(os.path.abspath(args.segmentation_output), reader.width, reader.height, reader.fps)$/;"	v
+segmented_batch	C:/Users/Cooper/localized-style-distortion\style_video.py	/^                    segmented_batch = segmentation_model.run(batch)$/;"	v
+set_epoch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^    def set_epoch(self, epoch):$/;"	m	class:DistributedSampler
+setup_logger	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, setup_logger$/;"	i
+setup_logger	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion, parse_devices, setup_logger$/;"	i
+setup_logger	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def setup_logger(distributed_rank=0, filename="log.txt"):$/;"	f
+setup_logger	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.utils import colorEncode, find_recursive, setup_logger$/;"	i
+setup_logger	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.utils import AverageMeter, parse_devices, setup_logger$/;"	i
+setuptools	C:/Users/Cooper/localized-style-distortion\setup.py	/^import setuptools$/;"	i
+shlex	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^import shlex$/;"	i
+shlex	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^import shlex$/;"	i
+shuffle	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                                                shuffle=True,$/;"	v
+side_letter	C:/Users/Cooper/localized-style-distortion\dataset.py	/^    def side_letter(side):$/;"	m	class:SceneFlowDataset
+signal	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import signal$/;"	i
+size	C:/Users/Cooper/localized-style-distortion\main.py	/^size = (h,w,1)$/;"	v
+string_classes	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^from torch._six import string_classes, int_classes$/;"	i
+style	C:/Users/Cooper/localized-style-distortion\main.py	/^style = styles[0]$/;"	v
+style	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^            style = Image.open(args.style)$/;"	v
+style	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^            style = style.unsqueeze_(0)$/;"	v
+style	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^            style = transforms.ToTensor()(style).cuda()$/;"	v
+style1	C:/Users/Cooper/localized-style-distortion\main.py	/^	style1 = styles[0]$/;"	v
+style2	C:/Users/Cooper/localized-style-distortion\main.py	/^	style2 = styles[3]$/;"	v
+style3	C:/Users/Cooper/localized-style-distortion\main.py	/^	style3 = styles[2]$/;"	v
+style_gram_matrices	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^            style_gram_matrices = [gram_matrix(x) for x in style_vgg_features]$/;"	v
+style_layer	C:/Users/Cooper/localized-style-distortion\main.py	/^style_layer = cv2.multiply(m, styled)$/;"	v
+style_loss	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^def style_loss($/;"	f
+style_model	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    style_model = StyleModel(args.model, use_gpu=not args.use_cpu, gpu_device=args.gpu_device)$/;"	v
+style_str	C:/Users/Cooper/localized-style-distortion\main.py	/^style_str = 'images\/style-transferred-images\/'+input_name+'-'+style+'.jpg'$/;"	v
+style_vgg_features	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^            style_vgg_features = vgg(preprocess_for_vgg(style))$/;"	v
+style_writer	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    style_writer = VideoWriter(os.path.abspath(args.style_output), reader.width, reader.height, reader.fps)$/;"	v
+styled	C:/Users/Cooper/localized-style-distortion\main.py	/^styled = cv2.imread(style_str)$/;"	v
+styled	C:/Users/Cooper/localized-style-distortion\main.py	/^styled = styled.astype(float)$/;"	v
+styled_batch	C:/Users/Cooper/localized-style-distortion\style_video.py	/^                    styled_batch = style_model.run(batch)$/;"	v
+styled_test_image	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                        styled_test_image = stylize_image(Image.open("test_image.jpeg"), model)$/;"	v
+styled_train_image_1	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                            styled_train_image_1 = stylize_image(sample["frame"], model)$/;"	v
+styled_train_image_2	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                            styled_train_image_2 = stylize_image(sample["previous_frame"], model)$/;"	v
+styles	C:/Users/Cooper/localized-style-distortion\main.py	/^styles = [ 'candy', 'mosaic', 'starry-night', 'udnie']$/;"	v
+stylize_image	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^def stylize_image(image, model):$/;"	f
+sys	C:/Users/Cooper/localized-style-distortion\lib.py	/^import os, sys$/;"	i
+sys	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import sys$/;"	i
+sys	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\utils.py	/^import sys$/;"	i
+sys	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^import sys$/;"	i
+tensors_sum	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+tensors_sum	C:/Users/Cooper/localized-style-distortion\utils.py	/^def tensors_sum(tensors):$/;"	f
+test	C:/Users/Cooper/localized-style-distortion\test.py	/^def test(segmentation_module, loader, gpu):$/;"	f
+testNumericBatchNorm	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^    def testNumericBatchNorm(self):$/;"	m	class:NumericTestCase
+testSyncBatchNorm2DSyncTrain	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^    def testSyncBatchNorm2DSyncTrain(self):$/;"	m	class:SyncTestCase
+testSyncBatchNormNormalEval	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^    def testSyncBatchNormNormalEval(self):$/;"	m	class:SyncTestCase
+testSyncBatchNormNormalTrain	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^    def testSyncBatchNormNormalTrain(self):$/;"	m	class:SyncTestCase
+testSyncBatchNormSyncEval	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^    def testSyncBatchNormSyncEval(self):$/;"	m	class:SyncTestCase
+testSyncBatchNormSyncTrain	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^    def testSyncBatchNormSyncTrain(self):$/;"	m	class:SyncTestCase
+the_dir	C:/Users/Cooper/localized-style-distortion\style_video.py	/^    the_dir = '.\/ade20k-resnet50dilated-ppm_deepsup'$/;"	v
+the_dir	C:/Users/Cooper/localized-style-distortion\test.py	/^    the_dir = '.\/ade20k-resnet50dilated-ppm_deepsup'$/;"	v
+threading	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\comm.py	/^import threading$/;"	i
+threading	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import threading$/;"	i
+time	C:/Users/Cooper/localized-style-distortion\eval.py	/^import time$/;"	i
+time	C:/Users/Cooper/localized-style-distortion\train.py	/^import time$/;"	i
+to_device	C:/Users/Cooper/localized-style-distortion\lib.py	/^    def to_device(self, x):$/;"	m	class:ReCoNetModel
+to_device	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def to_device(self, x):$/;"	m	class:SegmentationModel
+torch	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\eval.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\eval.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\frn.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\lib.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\batchnorm.py	/^import torch.nn.functional as F$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^import torch.cuda as cuda$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import torch.multiprocessing as multiprocessing$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\distributed.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\sampler.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\th.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\hrnet.py	/^import torch.nn.functional as F$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\mobilenet.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnet.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\resnext.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\utils.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import torch.utils.data$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\test.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\test.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\train.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\train.py	/^import torch.nn as nn$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\utils.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\vgg.py	/^import torch$/;"	i
+torch	C:/Users/Cooper/localized-style-distortion\vgg.py	/^import torch.nn as nn$/;"	i
+torchvision	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import torchvision$/;"	i
+total_variation	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^def total_variation(y):$/;"	f
+tqdm	C:/Users/Cooper/localized-style-distortion\eval.py	/^from tqdm import tqdm$/;"	i
+tqdm	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from tqdm import tqdm$/;"	i
+tqdm	C:/Users/Cooper/localized-style-distortion\test.py	/^from tqdm import tqdm$/;"	i
+traceback	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataloader.py	/^import traceback$/;"	i
+train	C:/Users/Cooper/localized-style-distortion\train.py	/^def train(segmentation_module, iterator, optimizers, history, epoch, cfg):$/;"	f
+traindata	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        traindata = torch.utils.data.DataLoader(dataset,$/;"	v
+training_loss	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                training_loss = tensors_sum(list(losses.values()))$/;"	v
+transform	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        transform = transforms.Compose([$/;"	v
+transforms	C:/Users/Cooper/localized-style-distortion\custom_transforms.py	/^from torchvision import transforms$/;"	i
+transforms	C:/Users/Cooper/localized-style-distortion\mit_semseg\dataset.py	/^from torchvision import transforms$/;"	i
+transforms	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^from torchvision import transforms$/;"	i
+type	C:/Users/Cooper/localized-style-distortion\eval.py	/^        type=str,$/;"	v
+type	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^        type=str,$/;"	v
+type	C:/Users/Cooper/localized-style-distortion\style_video.py	/^        type=str,$/;"	v
+type	C:/Users/Cooper/localized-style-distortion\test.py	/^        type=int,$/;"	v
+type	C:/Users/Cooper/localized-style-distortion\test.py	/^        type=str,$/;"	v
+type	C:/Users/Cooper/localized-style-distortion\train.py	/^        type=str,$/;"	v
+unique	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^def unique(ar, return_index=False, return_inverse=False, return_counts=False):$/;"	f
+unittest	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_numeric_batchnorm.py	/^import unittest$/;"	i
+unittest	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\tests\test_sync_batchnorm.py	/^import unittest$/;"	i
+unittest	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\modules\unittest.py	/^import unittest$/;"	i
+unpack_archive	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\data\download_data.py	/^from shutil import unpack_archive$/;"	i
+update	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^    def update(self, val, weight=1):$/;"	m	class:AverageMeter
+update	C:/Users/Cooper/localized-style-distortion\utils.py	/^    def update(self, losses):$/;"	m	class:RunningLossesContainer
+url	C:/Users/Cooper/localized-style-distortion\setup.py	/^    url='https:\/\/github.com\/CSAILVision\/semantic-segmentation-pytorch',$/;"	v
+urlretrieve	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\utils.py	/^    from urllib import urlretrieve$/;"	i
+urlretrieve	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\utils.py	/^    from urllib.request import urlretrieve$/;"	i
+user_scattered_collate	C:/Users/Cooper/localized-style-distortion\eval.py	/^from mit_semseg.lib.nn import user_scattered_collate, async_copy_to$/;"	i
+user_scattered_collate	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^from mit_semseg.lib.nn import user_scattered_collate, async_copy_to$/;"	i
+user_scattered_collate	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\__init__.py	/^from .parallel import UserScatteredDataParallel, user_scattered_collate, async_copy_to$/;"	i
+user_scattered_collate	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\__init__.py	/^from .data_parallel import UserScatteredDataParallel, user_scattered_collate, async_copy_to$/;"	i
+user_scattered_collate	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\nn\parallel\data_parallel.py	/^def user_scattered_collate(batch):$/;"	f
+user_scattered_collate	C:/Users/Cooper/localized-style-distortion\test.py	/^from mit_semseg.lib.nn import user_scattered_collate, async_copy_to$/;"	i
+user_scattered_collate	C:/Users/Cooper/localized-style-distortion\train.py	/^from mit_semseg.lib.nn import UserScatteredDataParallel, user_scattered_collate, patch_replication_callback$/;"	i
+utils	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^import torch.utils.data$/;"	i
+value	C:/Users/Cooper/localized-style-distortion\mit_semseg\utils.py	/^    def value(self):$/;"	m	class:AverageMeter
+version	C:/Users/Cooper/localized-style-distortion\setup.py	/^    version='1.0.0',$/;"	v
+vgg	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        vgg = Vgg16().cuda()$/;"	v
+vgg16	C:/Users/Cooper/localized-style-distortion\vgg.py	/^from torchvision.models import vgg16$/;"	i
+vgg_input_frame	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                vgg_input_frame = preprocess_for_vgg(sample["frame"])$/;"	v
+vgg_output_frame	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                vgg_output_frame = preprocess_for_vgg(postprocess_reconet(output_frame))$/;"	v
+vgg_previous_input_frame	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                vgg_previous_input_frame = preprocess_for_vgg(sample["previous_frame"])$/;"	v
+vgg_previous_output_frame	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^                vgg_previous_output_frame = preprocess_for_vgg(postprocess_reconet(previous_output_frame))$/;"	v
+visualize_result	C:/Users/Cooper/localized-style-distortion\eval.py	/^def visualize_result(data, pred, dir_result):$/;"	f
+visualize_result	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^def visualize_result(data, pred, dir_result):$/;"	f
+visualize_result	C:/Users/Cooper/localized-style-distortion\test.py	/^def visualize_result(data, pred, cfg):$/;"	f
+warnings	C:/Users/Cooper/localized-style-distortion\mit_semseg\lib\utils\data\dataset.py	/^import warnings$/;"	i
+warp_optical_flow	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^    Dummy$/;"	i
+warp_optical_flow	C:/Users/Cooper/localized-style-distortion\utils.py	/^def warp_optical_flow(source, reverse_flow):$/;"	f
+weights_init	C:/Users/Cooper/localized-style-distortion\mit_semseg\models\models.py	/^    def weights_init(m):$/;"	m	class:ModelBuilder
+worker	C:/Users/Cooper/localized-style-distortion\eval_multipro.py	/^def worker(cfg, gpu_id, start_idx, end_idx, result_queue):$/;"	f
+write	C:/Users/Cooper/localized-style-distortion\ffmpeg_tools.py	/^    def write(self, frame):$/;"	m	class:VideoWriter
+write	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\ffmpeg_tools.py	/^    def write(self, frame):$/;"	m	class:VideoWriter
+writer	C:/Users/Cooper/localized-style-distortion\pytorch-reconet\train.py	/^        writer = SummaryWriter()$/;"	v

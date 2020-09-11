@@ -1,89 +1,63 @@
-import cv2
+import argparse
+import csv
 import numpy as np
 import os
+from subprocess import check_call
+from imageio import imwrite
+from torch import squeeze, unsqueeze, from_numpy, max, tensor
+from utils import nhwc_to_nchw, nchw_to_nhwc
+from lib import ReCoNetModel as StyleModel
+from mit_semseg.models import SegmentationModel
+from ffmpeg_tools import VideoReader, VideoWriter
+from mit_semseg.config import cfg
 
+def jp(*x): return os.path.expanduser(os.path.join(*x))
+DEFAULT_MODEL = "./model_mosaic_2.pth"
+ROOT_DIR = os.path.expanduser(jp('~','localized-style-distortion'))
+TEST_DIR  =jp(jp(ROOT_DIR, 'data'), 'roadster')
+LABEL_CSV = jp(ROOT_DIR,'data/object150_info.csv')
 
-# possible styles to choose from
-styles = [ 'candy', 'mosaic', 'starry-night', 'udnie']
-style = styles[0]
-# name of input inamge (no extension)
-input_name = 'hotpot'
+def get_mask(image, index): return unsqueeze(squeeze((image[:,index,:,:]) > 0.25).int(), -1)
+def to_image(x): return squeeze(x).cpu().numpy().astype('uint8')
 
-# Run image segmentation and stylization
-command ='source mask.sh '+input_name+' && source style.sh '+input_name + ' ' + style
-#os.system(command)
-
-
-# filenames
-input_str = 'images/content-images/'+input_name+'.jpg'
-style_str = 'images/style-transferred-images/'+input_name+'-'+style+'.jpg'
-mask_str = 'images/mask-images/'+input_name+'-mask.png'
-bin_mask_str = 'images/mask-images/'+input_name+'-bin-mask.png'
-blurredMaskFN = input_name+'-blurred-mask.png'
-blurMaskFP = 'images/mask-images/'+blurredMaskFN
-
-
-# Create a binary mask from the image segmentation
-input = cv2.imread(input_str)
-styled = cv2.imread(style_str)
-styled = styled.astype(float)
-input = input.astype(float)
-
-mask = cv2.imread(mask_str)
-h,w = input.shape[:2]
-size = (h,w,1)
-m = np.zeros(size, dtype=np.uint8)
-m[np.where((mask == [128,128,192]).all(axis = 2))] = 255
-
-# Create a blurred alpha-mask from the binary mask
-cv2.imwrite(bin_mask_str, m)
-blurSigma = 30
-#command = './ImageTools/blurMask '+bin_mask_str +' '+str(blurSigma)+' ' + blurredMaskFN
-#os.system(command)
-#m = cv2.imread(blurMaskFP).astype(float)/255.0
-m = cv2.imread(bin_mask_str).astype(float)/255.0
-m = cv2.GaussianBlur(m, (2*blurSigma+1, 2*blurSigma+1), blurSigma)
-cv2.imwrite(blurMaskFP, m)
-
-# apply alpha blending
-style_layer = cv2.multiply(m, styled)
-regular_layer = cv2.multiply(1.0-m, input)
-out = style_layer + regular_layer
-
-#save output image
-output_str = 'images/output-images/'+input_name+'-masked-'+style+'.png'
-cv2.imwrite(output_str,out)
-
-
-
-## Testing
-extra = False
-
-if(extra):
-	#blend stylized foreground with different stylized background
-	name = input_name
-	style1 = styles[0]
-	style2 = styles[3]
-	style3 = styles[2]
-
-	mask_fn = 'images/mask-images/'+name+'-bin-mask.png'
-	mask = cv2.imread(mask_fn).astype(float)
-	m = cv2.GaussianBlur(mask, (45, 45), 13)
-	m = m/255.0
-
-	im1_fn = 'images/style-transferred-images/'+name+'-'+style1+'.jpg'
-	im1 = cv2.imread(im1_fn).astype(float)
-	fg = cv2.multiply(m, im1)
-
-	im2_fn = 'images/style-transferred-images/'+name+'-'+style2+'.jpg'
-	im2 = cv2.imread(im2_fn).astype(float)
-	bg = cv2.multiply(1.0-m, im2)
-
-	im3_fn = 'images/style-transferred-images/'+name+'-'+style3+'.jpg'
-	im3 = cv2.imread(im3_fn).astype(float)
-	bg2 = cv2.multiply(1.0-m, im3)
-
-	im_out = fg + bg*0.8 + bg2*0.2
-	out_fn = 'images/output-images/'+name+'-masked-'+style1+'-'+style2+'-'+style3+'.png'
-	cv2.imwrite(out_fn, im_out)
-
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input_dir", default=TEST_DIR, help="Path to input video directory.")
+    parser.add_argument("--input", default=f'{TEST_DIR}\\input.mp4', help="Path to input video file")
+    parser.add_argument("--output", default=f'{TEST_DIR}\\output.mp4', help="Path to output style video file")
+    parser.add_argument("--label", default="car", help="Path to output style video file")
+    parser.add_argument("--use-cpu", action='store_true', help="Use CPU instead of GPU")
+    parser.add_argument("--gpu-device", type=int, default=None, help="GPU device index")
+    parser.add_argument("--fps", type=int, default=None, help="FPS of output video")
+    args = parser.parse_args()
+    label_index = -1
+    with open(LABEL_CSV, 'r') as csv_file:
+        csv_reader = csv.reader(csv_file)
+        for row in csv_reader:
+            if label_index > 0: break
+            for column in row:
+                if (args.label in column): label_index = int(row[0]) - 1
+    style_model = StyleModel(DEFAULT_MODEL, use_gpu=not args.use_cpu, gpu_device=args.gpu_device)
+    cfg.merge_from_file("config/ade20k-resnet50dilated-ppm_deepsup.yaml")
+    segmentation_model = SegmentationModel(
+            DEFAULT_MODEL,
+            use_gpu=not args.use_cpu,
+            gpu_device=args.gpu_device,
+            cfg=cfg)
+    fix_path = lambda x: x.replace('\\', r'\\')
+    reader = VideoReader(fix_path(args.input), fps=args.fps)
+    output_writer = VideoWriter(fix_path(args.output), reader.width, reader.height, reader.fps)
+    with output_writer:
+        frame_number = 0
+        for frame in reader:
+            print(f"Processing frame {frame_number}")
+            frame_number+=1
+            image = np.array(frame)
+            style = style_model.run(image)
+            segmentation = segmentation_model.run(image)
+            mask = get_mask(segmentation, label_index)
+            inverse_mask = (255 - mask)// 255
+            masked_image = from_numpy(image).cuda() * mask
+            masked_style = squeeze(style * inverse_mask)
+            output_image = masked_image + masked_style
+            output_writer.write(to_image(output_image))
